@@ -1,0 +1,49 @@
+.zeroCircle{
+  border-radius: 50%;
+  background-color: #FCCCCC;
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+.oneCircle{
+  border-radius: 50%;
+  background-color: #F65151;
+  transform: translate(25%, 25%);
+  width: 60px;
+  height: 60px;
+}
+
+.twoCircle{
+  border-radius: 50%;
+  background-color: #D30000;
+  transform: translate(48%, 46%);
+  width: 30px;
+  height: 30px;
+}
+
+.newGameBtn{
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  left: 20%;
+  font-size: 50px;
+}
+.giveTime{
+  position: relative;
+  bottom: 10%;
+  width: 500px;
+  height: 50px;
+  left: 20%;
+  font-size: 30px;
+}
+
+.playAgainBtn{
+  left: 50px;
+}
+
+.lead{
+  font-size: 30px;
+}
+
+
