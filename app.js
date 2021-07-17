@@ -87,11 +87,15 @@ function addToScore(circleClass)
   const scoreBoard=document.querySelector('.score');
   if(circleClass.includes('one'))
   {
-    score+=1;
+    score+=10;
   }
   else if(circleClass.includes('two'))
   {
-    score+=2;
+    score+=20;
+  }
+  else if(circleClass.includes('zero'))
+  {
+    score+=5;
   }
   scoreBoard.textContent=`Score: ${score}`;
 }
